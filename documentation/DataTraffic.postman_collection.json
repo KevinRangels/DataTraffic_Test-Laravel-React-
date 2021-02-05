@@ -1,0 +1,411 @@
+{
+	"info": {
+		"_postman_id": "035f9531-3060-4f5f-965b-a1a07af2f1c6",
+		"name": "DataTraffic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save Characters From Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/get_characters_for_api",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"get_characters_for_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Locations From Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/get_locations_for_api",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"get_locations_for_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Registers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/clear_register?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"clear_register"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashboard Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/dashboard?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"dashboard"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/characters?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"characters"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Character",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/character/1?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"character",
+						"1"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/locations?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"locations"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/location/1?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"location",
+						"1"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddEpisode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Kevin",
+							"type": "text"
+						},
+						{
+							"key": "air_date",
+							"value": "12 Julio",
+							"type": "text"
+						},
+						{
+							"key": "episode",
+							"value": "S101",
+							"type": "text"
+						},
+						{
+							"key": "characters",
+							"value": "1,2,3,4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/episode",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Episodes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/episodes?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episodes"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Episode",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/episode/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episode",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Episode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Updated",
+							"type": "text"
+						},
+						{
+							"key": "air_date",
+							"value": "Updated",
+							"type": "text"
+						},
+						{
+							"key": "episode",
+							"value": "Updated",
+							"type": "text"
+						},
+						{
+							"key": "characters",
+							"value": "7,8",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/episode/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episode",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Episode",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/episode/1?api_key=key_cur_prod_DataTraffic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episode",
+						"1"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "key_cur_prod_DataTraffic"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
