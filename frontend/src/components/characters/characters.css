@@ -1,0 +1,83 @@
+.characters__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.characters__card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23%;
+  border-radius: 10px;
+  border: 2px solid #27d127;
+  padding: 10px;
+  cursor: pointer;
+}
+.characters__card:hover {
+  text-decoration: none;
+}
+.characters__img {
+  display: flex;
+  height: 160px;
+  width: 100%;
+  justify-content: center;
+}
+.characters__card p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.character__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.character__img {
+  width: 40%;
+}
+.character__description {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.character__description p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #27d127;
+}
+.character__description p span{
+  font-size: 20px;
+  color: #ffffff;
+}
+.character__location {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+@media (max-width: 578px) {
+  .characters__card {
+    width: 100%;
+  }
+  .character__img {
+    width: 100%;
+  }
+  .character__description {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .character__description p {
+    font-size: 18px;
+  }
+  .character__description p span {
+    font-size: 18px;
+  }
+  .character__location {
+    font-size: 18px;
+  }
+}
+@media (min-width: 579px) and (max-width:1024px) {
+  .characters__card {
+    width: 48%;
+  }
+}

@@ -1,0 +1,29 @@
+.table__locationBody tr{
+  color: #27d127;
+}
+.location__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.location__container p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #27d127;
+}
+.location__container p span{
+  font-size: 20px;
+  color: #ffffff;
+}
+.location__containerCharactes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media (max-width: 578px) {
+  .location__pagination {
+    overflow-x: auto;
+  }
+}

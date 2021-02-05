@@ -1,0 +1,59 @@
+.dashboard__container-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.dashboard__box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #27d127;
+  width: 25%;
+  padding: 15px;
+}
+.dashboard__box span {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+}
+.dashboard__box p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #27d127;
+}
+.dashboard__containerBtns {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.dashboard__containerBtns button{
+  background: #27d127;
+  color: black;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (max-width: 578px) {
+  .app__section h1 {
+    font-size: 1.8rem;
+  }
+  .dashboard__containerBtns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dashboard__containerBtns button {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  .dashboard__box {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 14px;
+  }
+}

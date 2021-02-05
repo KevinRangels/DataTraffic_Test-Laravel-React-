@@ -1,0 +1,40 @@
+.episode__sectionBtn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.modalAdd__containerCharacters {
+  height: 150px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.modalAdd__containerCheckbox {
+  width: 48%;
+}
+.episode__containerInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.episode__containerInfo p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #27d127;
+}
+.episode__containerInfo p span{
+  font-size: 20px;
+  color: #ffffff;
+}
+.episode__containerCharactes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.addEpisode__validation {
+  color: red;
+  font-weight: bold;
+}

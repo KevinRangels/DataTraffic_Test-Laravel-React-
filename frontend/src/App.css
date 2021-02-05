@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+.app__main {
+  display: flex;
+  width: 100%;
+  background: #2c2727;
+}
+.app__content {
+  width: 80%;
+  padding: 30px;
+}
+.app__section {
+  background: black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.app__section h1 {
+  color: #ffffff;
+}
+.btn__main {
+  background: #27d127;
+  color: black;
+  outline: none !important;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn__link {
+  background: none;
+  color: #27d127;
+  outline: none !important;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn__link:hover {
+  text-decoration: none;
+}
+.modal {
+  z-index: 10000;
+}
+@media (max-width: 578px) {
+  .app__content {
+    padding: 20px;
+  }
+}
+  
