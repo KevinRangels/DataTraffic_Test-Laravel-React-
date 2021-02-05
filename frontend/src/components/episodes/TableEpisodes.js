@@ -8,7 +8,6 @@ export const TableEpisodes = ({episodes, handleEditEpisode, handleDeleteEpisode}
         <table className="table">
           <thead className="thead-light">
             <tr>
-              <th scope="col">id</th>
               <th scope="col">Name</th>
               <th scope="col">Date Air</th>
               <th scope="col">Episode</th>
@@ -19,7 +18,6 @@ export const TableEpisodes = ({episodes, handleEditEpisode, handleDeleteEpisode}
           {
               episodes.map( episode => (
                 <tr key={episode.id}>
-                  <th scope="row">1</th>
                   <td>{episode.name}</td>
                   <td>{episode.air_date}</td>
                   <td>{episode.episode}</td>
