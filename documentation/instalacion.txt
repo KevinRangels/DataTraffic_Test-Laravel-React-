@@ -1,0 +1,20 @@
+El aplicación esta desarrollada con React en el frontend y Laravel 6 en el backend utilizando una base de datos Sqlite.
+
+1) Instalar el backend:
+   - Ubicar la carpeta en su servidor local de desarrollo.
+   - Ejecutar "composer install"
+   - Dentro del directorio ya se encuentra el archivo Sqlite que es     nuestra base de datos y también se encuentra disponible el archivo .env listo para usar -> (https://prnt.sc/yfmut8)
+   - Ejecutar "php artisan cache:clear" y "php artisan config:cache"
+   - Ejecutar "php artisan migrate:fresh"
+   - Ejecutar "php artisan serve"
+
+2) Instalar frontend
+  Ejecutar "npm install"
+  Ejecutar "npm start" (Asegurarse de tener levantado el servidor con Laravel para hacer el uso de los servicios de api desde el frontend)
+
+PD: 
+- En la sección dashboard del frontend coloque 2 botones uno para limpiar registros de DB y otro que es el que se encargar de consumir los endpoints de la API de RickandMorty  y guardarlos en nuestra base de datos (Esta consulta tarda un poco ejecutarse por completo -> https://prnt.sc/yfmjxy)
+
+- Los personajes que obtengo desde la API de RickandMorty son 80 ya que la consulta tarda demasiado para obtenerlos todos e iterar entre las distintas páginas de la API por ende algunas locaciones no tienen sus personajes completos pero la relación entre estas entidades existe.
+
+Gracias.
