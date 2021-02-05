@@ -1,0 +1,7 @@
+# DataTraffic Test (Laravel-React)
+![](documentation/images/dashboard.png)
+![](documentation/images/characters.png)
+![](documentation/images/Locations.png)
+![](documentation/images/Episodes.png)
+![](documentation/images/EpisodeDetails.png)
+![](documentation/images/responsive.png)
